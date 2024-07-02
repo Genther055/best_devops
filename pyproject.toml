@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "my-project"
+version = "0.1.0"
+description = "Description of my project."
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scikit-learn = "^0.24.2"
+numpy = "^1.21.0"
