@@ -9,3 +9,9 @@ def test_add():
     assert (add(np.array([1, 2]), 3) == np.array([4, 5])).all()
 
 # TODO: add more tests
+    assert add(1, 2.0) == 3.0
+    assert add(2.0, 1) == 3.0
+    assert add(np.array([1, 2]), 3.0).all() == np.array([4.0, 5.0]).all()
+    assert add(3.0, np.array([1, 2])).all() == np.array([4.0, 5.0]).all()
+
+    
